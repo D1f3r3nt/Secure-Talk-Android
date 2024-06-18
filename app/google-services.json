@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "387383577376",
+    "project_id": "talk-dfdbc",
+    "storage_bucket": "talk-dfdbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387383577376:android:938eacfc864e6966e12545",
+        "android_client_info": {
+          "package_name": "com.diferent.securetalk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZok3_DDTr1LSs-H2d4iddQHeqsn9u7T8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
