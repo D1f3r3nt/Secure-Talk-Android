@@ -9,9 +9,8 @@ import com.diferent.securetalk.model.enums.Authorized
 import com.diferent.securetalk.model.enums.Loading
 import com.diferent.securetalk.model.enums.NonAuthorized
 import com.diferent.securetalk.model.enums.RootState
-import com.diferent.securetalk.ui.home.HomeScreen
 import com.diferent.securetalk.ui.loading.LoadingScreen
-import com.diferent.securetalk.ui.log_in.LogInScreen
+import com.diferent.securetalk.ui.modules.AuthModule
 
 @Composable
 fun RootScreen(viewModel: RootViewModel = hiltViewModel()) {
@@ -19,8 +18,8 @@ fun RootScreen(viewModel: RootViewModel = hiltViewModel()) {
     
     when (state) {
         is Loading -> LoadingScreen()
-        is Authorized -> HomeScreen()
-        is NonAuthorized -> LogInScreen()
+        is Authorized -> AuthModule()
+        is NonAuthorized -> AuthModule()
     }
 }
 
